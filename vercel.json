@@ -1,7 +1,25 @@
 {
   "headers": [
-    { "source": "/Build/(.*)\.data\.br", "headers": [ { "key": "Content-Encoding", "value": "br" }, { "key": "Content-Type", "value": "application/octet-stream" } ] },
-    { "source": "/Build/(.*)\.wasm\.br", "headers": [ { "key": "Content-Encoding", "value": "br" }, { "key": "Content-Type", "value": "application/wasm" } ] },
-    { "source": "/Build/(.*)\.js\.br", "headers": [ { "key": "Content-Encoding", "value": "br" }, { "key": "Content-Type", "value": "application/javascript" } ] }
+    {
+      "source": "/Build/DungeonBrawler.data.br",
+      "headers": [
+        { "key": "Content-Encoding", "value": "br" },
+        { "key": "Content-Type", "value": "application/octet-stream" }
+      ]
+    },
+    {
+      "source": "/Build/DungeonBrawler.wasm.br",
+      "headers": [
+        { "key": "Content-Encoding", "value": "br" },
+        { "key": "Content-Type", "value": "application/wasm" }
+      ]
+    },
+    {
+      "source": "/Build/DungeonBrawler.framework.js.br",
+      "headers": [
+        { "key": "Content-Encoding", "value": "br" },
+        { "key": "Content-Type", "value": "application/javascript" }
+      ]
+    }
   ]
 }
